@@ -6,7 +6,7 @@ import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Loading } from './LoadingComponent';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 import { baseUrl } from '../Model/baseUrl';
-
+ 
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
 const minLength = (len) => (val) => val && (val.length >= len);
